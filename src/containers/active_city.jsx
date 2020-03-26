@@ -13,7 +13,11 @@ class ActiveCity extends Component {
         </div>
       );
     }
-    return null;
+    return (
+      <div className="active-city">
+        <p>Select a city please</p>
+      </div>
+    );
   }
 }
 
